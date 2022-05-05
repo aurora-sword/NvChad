@@ -12,6 +12,7 @@ M.ui = {
 local userPlugins = require "custom.plugins"
 
 M.plugins = {
+  -- 返回用户插件
   user = userPlugins,
   options = {
     lspconfig = {

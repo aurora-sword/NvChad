@@ -5,5 +5,6 @@ local map = require("core.utils").map
 
 map("n", "<leader>cc", ":Telescope <CR>")
 map("n", "<leader>q", ":q <CR>")
+map("n", "<leader>s", ":HopPattern <CR>")
 
 -- require("my autocmds file") or just declare them here
